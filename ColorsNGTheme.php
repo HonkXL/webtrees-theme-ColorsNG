@@ -7,14 +7,14 @@
 
 declare(strict_types=1);
 
-namespace ExampleNamespace;
+namespace ColorsNGNamespace;
 
 use Fisharebest\Webtrees\Module\MinimalTheme;
 use Fisharebest\Webtrees\Module\ModuleCustomInterface;
 use Fisharebest\Webtrees\Module\ModuleCustomTrait;
 use Fisharebest\Webtrees\View;
 
-class ExampleModuleTheme extends MinimalTheme implements ModuleCustomInterface {
+class ColorsNGTheme extends MinimalTheme implements ModuleCustomInterface {
     use ModuleCustomTrait;
 
     /**
@@ -22,7 +22,7 @@ class ExampleModuleTheme extends MinimalTheme implements ModuleCustomInterface {
      */
     public function title(): string
     {
-        return 'Example module';
+        return 'ColorsNG';
     }
 
     /**
