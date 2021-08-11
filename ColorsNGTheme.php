@@ -9,12 +9,12 @@ declare(strict_types=1);
 
 namespace ColorsNGNamespace;
 
-use Fisharebest\Webtrees\Module\MinimalTheme;
+use Fisharebest\Webtrees\Module\ColorsTheme;
 use Fisharebest\Webtrees\Module\ModuleCustomInterface;
 use Fisharebest\Webtrees\Module\ModuleCustomTrait;
 use Fisharebest\Webtrees\View;
 
-class ColorsNGTheme extends MinimalTheme implements ModuleCustomInterface {
+class ColorsNGTheme extends ColorsTheme implements ModuleCustomInterface {
     use ModuleCustomTrait;
 
     /**
