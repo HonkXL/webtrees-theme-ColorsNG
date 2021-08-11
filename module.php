@@ -6,8 +6,8 @@
 
 declare(strict_types=1);
 
-namespace ExampleNamespace;
+namespace ColorsNGNamespace;
 
-require __DIR__ . '/ExampleModuleTheme.php';
+require __DIR__ . '/ColorsNGTheme.php';
 
-return new ExampleModuleTheme();
+return new ColorsNGTheme();
